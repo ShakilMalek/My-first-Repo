@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <img src="IMAGES/LOGO.png" alt="Logo" />
+      <div class="Navigation">
+        <ul>
+          <i id="menu-close" class="fa-solid fa-xmark"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Class</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <i id="menu-btn" class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <h2>Welcome To My Website</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
+        saepe. Sint ex dolores eius. Aut labore alias esse asperiores quod sit
+        perspiciatis, aspernatur ipsa ad pariatur. Soluta quibusdam obcaecati
+        placeat dicta aut tempore labore quos, dolore alias perferendis,
+        consequuntur error ipsum quo vel dolorum. Obcaecati ipsam soluta
+        mollitia aut magni quaerat? Quaerat minus ad officia ratione pariatur
+        soluta esse porro?
+      </p>
+      <div class="btn">
+        <a href="#" class="blue">Learn More</a>
+      </div>
+      
+    </section>
+    <!-- Features -->
+    <section id="features">
+      <h1>Awesome Features</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nam.
+      </p>
+      <div class="fea-base">
+        <div class="fea-box">
+          <i class="fa-solid fa-file-pen"></i>
+          <h3>All test papers</h3>
+          <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="fea-box">
+          <i class="fa-solid fa-note-sticky"></i>
+          <h3>Notes</h3>
+          <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="fea-box">
+          <i class="fa-solid fa-file-lines"></i>
+          <h3>Important Que-Ans</h3>
+          <p>Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+    <!-- courses -->
+    <section id="course">
+      <h1>Our Courses</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+        veniam.
+      </p>
+      <div class="course-box">
+        <div class="courses">
+        <a href="#" target="_blank">  <img  src="IMAGES/c1.jpeg"  alt="" /></a>
+
+          <div class="details">
+            <span>Updated on 01/06/23</span>
+            <h6>Social Science</h6>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+
+          <div class="cost">Free</div>
+        </div>
+        <div class="courses">
+         <a href=""><img src="IMAGES/c2.jpg" alt="" /></a> 
+
+          <div class="details">
+            <span>Updated on 01/06/23</span>
+            <h6>Social Science</h6>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+
+          <div class="cost">Free</div>
+        </div>
+        <div class="courses">
+        <a href=""><img src="IMAGES/c3.png" alt="" /></a>  
+
+          <div class="details">
+            <span>Updated on 01/06/23</span>
+            <h6>Social Science</h6>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+
+          <div class="cost">Free</div>
+        </div>
+        <div class="courses">
+         <a href=""><img src="IMAGES/c2.jpg" alt="" /></a> 
+
+          <div class="details">
+            <span>Updated on 01/06/23</span>
+            <h6>Science</h6>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+          <div class="cost">Free</div>
+      </div>
+    </section>
+    <!-- registration -->
+    <section id="registration">
+<div class="reminder">
+  <p>Get every chapter courses for free</p>
+  <h1>Register to get it!</h1>
+  <div class="time">
+  <div class="hurry">
+    Hurry Now
+  </div>
+  </div> 
+</div>
+<form onsubmit="sendEmail(); reset();return false;" action="">
+<div class="form">
+  <h3>Create Free account now!</h3>
+  <input type="text" placeholder="Name" name="" id="">
+  <input type="text" placeholder="Email" name="" id="email">
+  <input type="text" placeholder="Phone Number" name="" id="">
+
+<input type="submit" class="btn blue" value="Submit Form">
+</div>
+</form>
+    </section>
+    <!-- profile -->
+    <section id="experts">
+      <h1>Community Experts</h1>
+      <p>Myself Shakil Malek, an engineering student as well as tutor of Science and Social Science</p>
+      <div class="expert-box">
+        <div class="profile">
+          <img src="IMAGES/p1.jpg" alt="">
+          <h6>Shakil Malek</h6>
+          <p>Computer Engineering Student.
+          </p>
+          <div class="pro-links">
+            <a href="https://www.facebook.com/shakilmalek111"><i class="fab fa-facebook-f " id="facebook"></i></a>
+           <a href="https://www.instagram.com/shakilmalek111"><i class="fab fa-instagram " id="insta"></i></a> 
+            <a href=""><i class="fab fa-linkedin-in" id="linked"></i></a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <i class="fa-solid fa-phone"></i>
+        <li>Ph :(+91) 8160900000</li>
+        <i class="fa-solid fa-envelope"></i>
+        <li>Email: shakilmalek12*@gmail.com</li>
+      </div>
+      <div class="subscribe">
+        <input type="text" id="email" placeholder="Your Email Address">
+        <a href="#" class="blue subscribe">Subscribe</a>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy2023 All rights reserved | This website is made by SM</p>
+        <div class="pro-links">
+           <a href="https://www.facebook.com/shakilmalek111"><i class="fab fa-facebook-f " id="facebook"></i></a>
+            <a href="https://www.instagram.com/shakilmalek111"><i class="fab fa-instagram " id="insta"></i></a>
+           <a href=""><i class="fab fa-linkedin-in" id="linked"></i></a> 
+        </div>
+      </div>
+    </footer>
+    <script>
+      $('#menu-btn').click(function(){
+        $('nav .Navigation ul').addClass('active')
+      })
+       $('#menu-close').click(function(){
+        $('nav .Navigation ul').removeClass('active')
+      })
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+    Email.send({
+    Host:"smtp.elasticemail.com",
+    Username:"shakilmalek123@gmail.com",
+    Password:"4515CE725E03371CFF481DE634FB79D793A9",
+    To:"shakilmalek125@gmail.com",
+    From: document.getElementById("email").value,
+    Subject: "New form Enquiry",
+    Body: "This is body",
+  }).then(
+    message => alert(message)
+  );
+}
+    </script>
+
+  </body>
+</html>
